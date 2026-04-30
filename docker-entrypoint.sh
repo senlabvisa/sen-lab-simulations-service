@@ -12,7 +12,9 @@ npx --no-install prisma db push --skip-generate --accept-data-loss || {
 
 if [ -f "prisma/seed.ts" ]; then
   echo "[entrypoint] simulations-service: seeding (idempotent)…"
-  npx --no-install ts-node --transpile-only prisma/seed.ts || echo "[entrypoint] seed completed with warnings"
+  TS_NODE_TRANSPILE_ONLY=true \
+  TS_NODE_COMPILER_OPTIONS='{"module":"commonjs","moduleResolution":"node","target":"ES2022","esModuleInterop":true,"resolveJsonModule":true}' \
+  npx --no-install ts-node prisma/seed.ts || echo "[entrypoint] seed completed with warnings"
 fi
 
 echo "[entrypoint] starting: $@"
