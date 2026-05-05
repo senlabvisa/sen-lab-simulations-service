@@ -66,6 +66,13 @@ const SEEDS: Seed[] = [
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
+    title: 'Fractions simples — pain de mil',
+    subject: 'Maths',
+    targetGrade: '6eme',
+    slug: 'fractions-simples-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
     title: 'Fractions et nombres décimaux',
     subject: 'Maths',
     targetGrade: '5eme',
@@ -162,6 +169,13 @@ const SEEDS: Seed[] = [
     subject: 'Physique-Chimie',
     targetGrade: '6eme',
     slug: 'thermometre-tropical-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Changements d\'état — de la glace à la vapeur',
+    subject: 'Physique-Chimie',
+    targetGrade: '6eme',
+    slug: 'changements-etat-6eme',
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
@@ -267,6 +281,13 @@ const SEEDS: Seed[] = [
     subject: 'SVT',
     targetGrade: '6eme',
     slug: 'alimentation-animale-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Cycle de vie — la poule et l\'œuf',
+    subject: 'SVT',
+    targetGrade: '6eme',
+    slug: 'cycle-vie-6eme',
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
