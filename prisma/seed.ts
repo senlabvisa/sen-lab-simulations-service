@@ -79,6 +79,7 @@ const SEEDS: Seed[] = [
     subject: 'Maths',
     targetGrade: '3eme',
     slug: 'fonctions-affines-3eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Trigonométrie dans le triangle rectangle',
@@ -155,6 +156,13 @@ const SEEDS: Seed[] = [
     subject: 'Physique-Chimie',
     targetGrade: '4eme',
     slug: 'optique-lentilles-4eme',
+  },
+  {
+    title: 'Molécule d\'eau (H₂O) en 3D',
+    subject: 'Physique-Chimie',
+    targetGrade: '4eme',
+    slug: 'molecule-eau-4eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Loi d\'Ohm — Compteur Woyofal et résistance d\'une LED',
