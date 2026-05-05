@@ -135,6 +135,13 @@ const SEEDS: Seed[] = [
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
+    title: 'Masse, volume et densité — flotter ou couler',
+    subject: 'Physique-Chimie',
+    targetGrade: '6eme',
+    slug: 'masse-volume-densite-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
     title: 'Mélanges et solutions — bissap, tamarin, café Touba',
     subject: 'Physique-Chimie',
     targetGrade: '5eme',
