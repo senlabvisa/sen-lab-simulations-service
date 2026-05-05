@@ -38,16 +38,32 @@ const SEEDS: Seed[] = [
   // MATHÉMATIQUES (∑)
   // ============================================================
   {
-    title: 'Numération et opérations',
+    title: 'Numération et opérations — marché Sandaga',
     subject: 'Maths',
     targetGrade: '6eme',
     slug: 'numeration-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
-    title: 'Périmètres et aires',
+    title: 'Périmètres et aires — terrain de foot',
     subject: 'Maths',
     targetGrade: '6eme',
     slug: 'perimetres-aires-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Cercle, droites et angles — rapporteur 3D',
+    subject: 'Maths',
+    targetGrade: '6eme',
+    slug: 'cercle-droites-angles-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Lecture de graphiques — météo de Dakar',
+    subject: 'Maths',
+    targetGrade: '6eme',
+    slug: 'graphiques-meteo-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Fractions et nombres décimaux',
