@@ -229,6 +229,7 @@ const SEEDS: Seed[] = [
     subject: 'SVT',
     targetGrade: '6eme',
     slug: 'mangrove-saloum-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Respiration humaine et capacité pulmonaire',
