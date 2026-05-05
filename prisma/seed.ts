@@ -233,6 +233,13 @@ const SEEDS: Seed[] = [
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
+    title: 'Alimentation animale — chaîne alimentaire de la savane',
+    subject: 'SVT',
+    targetGrade: '6eme',
+    slug: 'alimentation-animale-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
     title: 'Respiration humaine et capacité pulmonaire',
     subject: 'SVT',
     targetGrade: '5eme',
