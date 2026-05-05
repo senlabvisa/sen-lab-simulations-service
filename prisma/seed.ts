@@ -223,6 +223,7 @@ const SEEDS: Seed[] = [
     subject: 'SVT',
     targetGrade: '6eme',
     slug: 'classification-vivant-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Environnement — mangrove du Saloum',
