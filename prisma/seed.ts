@@ -132,6 +132,7 @@ const SEEDS: Seed[] = [
     subject: 'Physique-Chimie',
     targetGrade: '6eme',
     slug: 'etats-matiere-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Mélanges et solutions — bissap, tamarin, café Touba',
