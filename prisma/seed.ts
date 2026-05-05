@@ -142,6 +142,13 @@ const SEEDS: Seed[] = [
     rubricTemplate: STANDARD_RUBRIC,
   },
   {
+    title: 'Thermomètre tropical — climat du Sénégal',
+    subject: 'Physique-Chimie',
+    targetGrade: '6eme',
+    slug: 'thermometre-tropical-6eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
     title: 'Mélanges et solutions — bissap, tamarin, café Touba',
     subject: 'Physique-Chimie',
     targetGrade: '5eme',
