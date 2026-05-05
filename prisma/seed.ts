@@ -83,6 +83,21 @@ const SEEDS: Seed[] = [
     subject: 'Maths',
     targetGrade: '5eme',
     slug: 'symetrie-axiale-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Pourcentages — soldes Auchan',
+    subject: 'Maths',
+    targetGrade: '5eme',
+    slug: 'pourcentages-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Triangles — équilatéral, isocèle, scalène',
+    subject: 'Maths',
+    targetGrade: '5eme',
+    slug: 'triangles-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Théorème de Pythagore',
@@ -189,6 +204,14 @@ const SEEDS: Seed[] = [
     subject: 'Physique-Chimie',
     targetGrade: '5eme',
     slug: 'circuits-simples-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Sources de lumière + éclipse',
+    subject: 'Physique-Chimie',
+    targetGrade: '5eme',
+    slug: 'sources-lumiere-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Air et pression atmosphérique',
@@ -301,6 +324,21 @@ const SEEDS: Seed[] = [
     subject: 'SVT',
     targetGrade: '5eme',
     slug: 'circulation-sanguine-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Digestion — du mil au glucose',
+    subject: 'SVT',
+    targetGrade: '5eme',
+    slug: 'digestion-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
+  },
+  {
+    title: 'Sol vivant — sous nos pieds',
+    subject: 'SVT',
+    targetGrade: '5eme',
+    slug: 'sol-vivant-5eme',
+    rubricTemplate: STANDARD_RUBRIC,
   },
   {
     title: 'Photosynthèse — Élodée, lumière et bulles d\'oxygène',
