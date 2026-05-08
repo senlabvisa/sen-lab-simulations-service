@@ -506,7 +506,27 @@ const SEEDS: Seed[] = [
     subject: 'SVT',
     targetGrade: 'terminale',
     slug: 'climat-terminale',
+    rubricTemplate: STANDARD_RUBRIC,
   },
+  // === Compléments lycée (Seconde / Première / Terminale) ===
+  { title: 'Équations du second degré', subject: 'Maths', targetGrade: 'seconde', slug: 'equations-second-degre-2nde', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Fonctions de référence (x², 1/x, √x)', subject: 'Maths', targetGrade: 'seconde', slug: 'fonctions-reference-2nde', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Mouvement et vitesse — TER Dakar', subject: 'Physique-Chimie', targetGrade: 'seconde', slug: 'mouvement-vitesse-2nde', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Mole et concentration', subject: 'Physique-Chimie', targetGrade: 'seconde', slug: 'mole-concentration-2nde', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Biodiversité — Réserve de Bandia', subject: 'SVT', targetGrade: 'seconde', slug: 'biodiversite-bandia-2nde', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Suites arithmétiques et géométriques', subject: 'Maths', targetGrade: 'premiere', slug: 'suites-arith-geo-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Produit scalaire', subject: 'Maths', targetGrade: 'premiere', slug: 'produit-scalaire-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Miroirs sphériques', subject: 'Physique-Chimie', targetGrade: 'premiere', slug: 'optique-miroirs-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Chimie organique — alcanes', subject: 'Physique-Chimie', targetGrade: 'premiere', slug: 'chimie-organique-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Hormones et puberté', subject: 'SVT', targetGrade: 'premiere', slug: 'hormones-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Respiration cellulaire', subject: 'SVT', targetGrade: 'premiere', slug: 'respiration-cellulaire-1ere', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Exponentielle et logarithme', subject: 'Maths', targetGrade: 'terminale', slug: 'exponentielle-log-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Géométrie dans l\'espace', subject: 'Maths', targetGrade: 'terminale', slug: 'geometrie-espace-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Nombres complexes', subject: 'Maths', targetGrade: 'terminale', slug: 'complexes-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Circuit RLC — oscillations', subject: 'Physique-Chimie', targetGrade: 'terminale', slug: 'circuit-rlc-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Désintégration radioactive — Carbone 14', subject: 'Physique-Chimie', targetGrade: 'terminale', slug: 'desintegration-radioactive-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'VIH et système immunitaire', subject: 'SVT', targetGrade: 'terminale', slug: 'vih-immunite-terminale', rubricTemplate: STANDARD_RUBRIC },
+  { title: 'Méiose vs Mitose', subject: 'SVT', targetGrade: 'terminale', slug: 'meiose-mitose-terminale', rubricTemplate: STANDARD_RUBRIC },
 ];
 
 async function main() {
