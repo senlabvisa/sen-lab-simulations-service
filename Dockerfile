@@ -6,12 +6,12 @@ WORKDIR /workspace
 
 COPY sen-lab-shared-types ./sen-lab-shared-types
 WORKDIR /workspace/sen-lab-shared-types
-RUN pnpm install --no-frozen-lockfile
+RUN pnpm install --no-frozen-lockfile --prod=false
 RUN pnpm build
 
 COPY sen-lab-simulations-service /workspace/sen-lab-simulations-service
 WORKDIR /workspace/sen-lab-simulations-service
-RUN pnpm install --no-frozen-lockfile
+RUN pnpm install --no-frozen-lockfile --prod=false
 RUN pnpm prisma:generate
 RUN pnpm build
 
